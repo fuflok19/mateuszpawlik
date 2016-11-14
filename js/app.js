@@ -8,4 +8,18 @@ $(function(){
       3000);
 });
 
+$(function () {
+
+
+    var spanToLoad = $('.loading');
+
+    spanToLoad.each(function () {
+        $(this).animate({width: $(this).data('procent') + "%"}, $(this).data('procent') / 100 * 5000);
+    });
+
+});
+
+
+
+
 

@@ -1,0 +1,31 @@
+.menu{
+	width: 100%;
+	height: 100px;
+	background-color: #333;
+}
+li{
+	float: left;
+}
+
+li a{
+	color: #b4b4b7;
+	font-size: 33px;
+	font-family: "Lucida Sans", Verdana, sans-serif;
+	font-weight: bold;
+	display: block;
+	padding: 30px 81px 30px 81px;
+	text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a:hover {
+    background-color: #b0b0b0;
+    color: #06070f;
+}
