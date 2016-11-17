@@ -12,11 +12,11 @@
 	<div class='header'>
 				<div class='menu'>
 					<div class='container'>
-						<ul>
-							<li><a href="#" class="nav-a">HOME</a></li>
-							<li><a href="#" class="nav-a">ABOUT</a></li>
-							<li><a href="#" class="nav-a">SKILLS</a></li>
-							<li><a href="#" class="nav-a">CONTACT</a></li>
+						<ul class='one' id='top'>
+							<li><a href="#nav1" class="nav-a">HOME</a></li>
+							<li><a href="#nav2" class="nav-a">ABOUT</a></li>
+							<li><a href="#nav3" class="nav-a">SKILLS</a></li>
+							<li><a href="#nav4" class="nav-a">CONTACT</a></li>
 						</ul>
 					</div>
 				</div>
@@ -28,36 +28,39 @@
 	</div>
 	<div class='main'>	
 		<div class='container'>
+			<div class='foto'>
+			</div>
 			<div class='about'>
-				<h3>Lorem ipsum</h3>
+				<h3 id='nav1'>MY NAME IS</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel mi sollicitudin, euismod lectus vel, egestas orci. Praesent molestie, nisl nec tincidunt semper, arcu ante blandit enim, a rutrum diam diam ac arcu. Proin id semper mauris. Integer non mauris non massa faucibus faucibus. Suspendisse nibh quam, cursus at arcu sed, dictum sodales orci. Donec posuere, velit nec pharetra scelerisque, lectus velit condimentum felis, ut tempus elit mauris quis purus. Aenean volutpat, velit vitae blandit iaculis, ligula justo iaculis elit, ac euismod libero libero id nisi. Nam ut dui in ipsum accumsan tempor non at augue. Aliquam interdum neque blandit lacinia facilisis.</p>
-				<h3>Lorem ipsum</h3>
+				<h3 id='nav2'>ABOUT</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel mi sollicitudin, euismod lectus vel, egestas orci. Praesent molestie, nisl nec tincidunt semper, arcu ante blandit enim, a rutrum diam diam ac arcu. Proin id semper mauris. Integer non mauris non massa faucibus faucibus. Suspendisse nibh quam, cursus at arcu sed, dictum sodales orci. Donec posuere, velit nec pharetra scelerisque, lectus velit condimentum felis, ut tempus elit mauris quis purus. Aenean volutpat, velit vitae blandit iaculis, ligula justo iaculis elit, ac euismod libero libero id nisi. Nam ut dui in ipsum accumsan tempor non at augue. Aliquam interdum neque blandit lacinia facilisis.</p>
 			</div>
 			<div class='skills'>
-				<ul>
-				    <li class="load">HTML 5<span data-procent="60" class="loading"></span></li>
-				    <li class="load">CSS 3<span data-procent="60" class="loading"></span></li>
-				    <li class="load">JavaScript<span data-procent="20" class="loading"></span></li>
-				    <li class="load">jQuery<span data-procent="30" class="loading"></span></li>
-				    <li class="load">git<span data-procent="80" class="loading"></span></li>
-				    <li class="load">github<span data-procent="80" class="loading"></span></li>
-				    <li class="load">AJAX<span data-procent="5" class="loading"></span></li>
-				    <li class="load">REST<span data-procent="5" class="loading"></span></li>
-				    <li class="load">PHP<span data-procent="1" class="loading"></span></li>
-				    <li class="load">Sass<span data-procent="60" class="loading"></span></li>
-				    <li class="load">gulp<span data-procent="30" class="loading"></span></li>
-				    <li class="load">node.js<span data-procent="5" class="loading"></span></li>
-				    <li class="load">RWD<span data-procent="60" class="loading"></span></li>
-				    <li class="load">Accessibility<span data-procent="20" class="loading"></span></li>
-				    <li class="load">WordPress<span data-procent="30" class="loading"></span></li>
-				</ul>
+				<h3 id='nav3'>SKILLS</h3>
+					<ul class='box'>
+					    HTML 5<li class="load"><span data-procent="60" class="loading"></span></li>
+					    CSS 3<li class="load"><span data-procent="60" class="loading"></span></li>
+					    JavaScript<li class="load"><span data-procent="20" class="loading"></span></li>
+					    jQuery<li class="load"><span data-procent="30" class="loading"></span></li>
+					    git<li class="load"><span data-procent="80" class="loading"></span></li>
+					    github<li class="load"><span data-procent="80" class="loading"></span></li>
+					    AJAX<li class="load"><span data-procent="5" class="loading"></span></li>
+					    REST<li class="load"><span data-procent="5" class="loading"></span></li>
+					    PHP<li class="load"><span data-procent="10" class="loading"></span></li>
+					    Sass<li class="load"><span data-procent="60" class="loading"></span></li>
+					    gulp<li class="load"><span data-procent="30" class="loading"></span></li>
+					    node.js<li class="load"><span data-procent="5" class="loading"></span></li>
+					    RWD<li class="load"><span data-procent="60" class="loading"></span></li>
+					    Accessibility<li class="load"><span data-procent="20" class="loading"></span></li>
+					    WordPress<li class="load"><span data-procent="30" class="loading"></span></li>
+					</ul>
 			</div>
 		</div>
 	</div>
 	<div class='form'>
 		<div class='container'>
-			<h3>CONTACT ME</h3>
+			<h3 id='nav4'>CONTACT ME</h3>
 				<label for="fname"></label>
   					<input type="text" id="fname" name="fname" value="NAME">
 				<label for="Email"></label>
@@ -67,6 +70,7 @@
 		</div>
 	</div>
 	<div class='footer'>
+		<a href="#top" class="cd-top">Top</a>
 		<div class='container'>
 			<div class="mat"> &copy; 2016 MATEUSZ PAWLIK</div>
 		</div>
