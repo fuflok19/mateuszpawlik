@@ -42,23 +42,16 @@ $(function(){
         $('html, body').animate({scrollTop: position.top}, time);
     });
 
-    var back = $('.footer');
-        console.log(back);
-    var goTop = back.find('a');
-        console.log(goTop);
+        $('a').click(function(){
 
-    goTop.on('click', function(e){
-        e.preventDefault();
-        var gogo = 2;
-        var href = $(this).attr('href');
-        console.log(href);
+        $('html, body').animate({
 
-        var position = $(href).offset();            
-        console.log(position.top);
-        var time = position.top/gogo;
-        console.log(time);
-        $('html, body').animate({scrollTop: position.top}, time);
+            scrollTop: $( $(this).attr('href') ).offset().top
+
+            }, 1000);
+
     });
+
 
 
 });
