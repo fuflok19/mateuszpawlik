@@ -6,11 +6,11 @@ $(function(){
          .next('img').fadeIn(1000)
          .end().appendTo('.slider');}, 
       3000);
-
+});
 
 
     var spanToLoad = $('.loading');
-
+  
     spanToLoad.each(function () {
         var bar = $(this);
         var id = setInterval(function(){
@@ -20,11 +20,12 @@ $(function(){
         }
         ,100
         );
-        $(this).animate({width: $(this).data('procent') + "%"}, $(this).data('procent') / 100 * 5000, function(){
+        $(this).animate({width: $(this).data('procent') + "%"}, $(this).data('procent') / 100 * 5000,function(){
             console.log(id);
             clearInterval(id);
         });
-    });
+      });
+
 
     var menu = $('.menu');
     var Links = menu.find('a');
@@ -54,7 +55,7 @@ $(function(){
 
 
 
-});
+
 
 
 
