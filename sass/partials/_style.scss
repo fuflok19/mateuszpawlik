@@ -18,7 +18,7 @@
 [class*='col-']{
 	float: left;
 	min-height: 1px;
-	height: 150px;
+	height: 100%;
 	background: white;
 	box-sizing: border-box;
 }
@@ -71,56 +71,37 @@
 		width: 100%;
 	}
 
+.header{
+	background-image: url('../images/2b.jpg');
+	background-size: 100% 100%;
+	height: 96vh;
+}
+
 .menu{
 	background: $col1;
 	height: auto;
 }
-
-.header{
-	
-}
-
-.slider{ 
-    position: relative; 
-    width: 100%;
-    height: 95vh;
-}
-
-.slider img{ 
-    position: absolute; 
-    left:0; 
-    top:0; 
-}
-
-img.box1{
-	height: 95vh;
-	width: 100%;
-}
-
 .a{
 	background: $col1;
-	height:	100px;
-	
+	height:	5%;
 	text-align: center;
+	padding: 10px;
 }
-
 .nav-a{
 	text-decoration: none;
-	color: $col2;
+	color: $col2;	
 }
-
-
+.a:hover{
+    background: $col3;
+}
 .footer{
 	background: $col1;
 	height: 160px;
 }
-
 .main{
-	height: 400px;
+	height: auto;
 	color: $col2;
 }
-
-
 @media (max-width: 640px){
 		[class*='col-']{
 			clear: both;
