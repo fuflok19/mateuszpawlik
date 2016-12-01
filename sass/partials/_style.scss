@@ -72,11 +72,11 @@
 	}
 
 .header{
+	background: $col1;
 	background-image: url('../images/2b.jpg');
 	background-size: 100% 100%;
 	height: 96vh;
 }
-
 .menu{
 	background: $col1;
 	height: auto;
@@ -101,6 +101,17 @@
 .main{
 	height: auto;
 	color: $col2;
+	padding: 10px;
+	font-size: 30px;
+}
+.foto{
+	background: $col1;
+	background-image: url('../images/gc.png');
+	background-size: 100% 100%;
+	border-radius: 50%;
+	width: 30%;
+	height: 60%;
+	padding: 20px;
 }
 @media (max-width: 640px){
 		[class*='col-']{
