@@ -106,12 +106,30 @@
 }
 .foto{
 	background: $col1;
-	background-image: url('../images/gc.png');
+	background-image: url('../images/pd.png');
 	background-size: 100% 100%;
 	border-radius: 50%;
-	width: 30%;
-	height: 60%;
-	padding: 20px;
+	width: 150px;
+	height: 150px;
+	box-shadow: 0 7px 10px #999;
+	border: 10px solid #dedede;
+}
+.foto:hover{
+	background-image: url('../images/gc.png');
+}
+.logo{
+	color: white;
+	font-size: 100%;
+	right: 50%;
+	top: 10%;
+}
+h3{
+	color: $col1;
+	text-align: center;
+}
+.foto, .my, .main{
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 @media (max-width: 640px){
 		[class*='col-']{
