@@ -130,6 +130,11 @@ h3{
 .foto, .my, .main{
 	margin-top: 50px;
 	margin-bottom: 50px;
+	-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+.foto:hover, .my:hover, .main:hover {
+    width: 300px;
 }
 @media (max-width: 640px){
 		[class*='col-']{
