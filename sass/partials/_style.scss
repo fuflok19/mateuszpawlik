@@ -73,7 +73,7 @@
 
 .header{
 	background: $col1;
-	background-image: url('../images/2b.jpg');
+	background-image: url('../images/2c.jpg');
 	background-size: 100% 100%;
 	height: 96vh;
 }
@@ -127,15 +127,34 @@ h3{
 	color: $col1;
 	text-align: center;
 }
-.foto, .my, .main{
+.foto, .my, .main, .skills{
 	margin-top: 50px;
 	margin-bottom: 50px;
-	-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s;
 }
-.foto:hover, .my:hover, .main:hover {
-    width: 300px;
+
+.skills{
+	background: #dedede;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	box-shadow: 0 7px 10px #999;
+	border: 10px solid #dedede;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    transition: all 0.2s ease-in-out;
 }
+.logo-main{
+	display: flex;
+    justify-content: center;
+}
+.cd-top{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
 @media (max-width: 640px){
 		[class*='col-']{
 			clear: both;
