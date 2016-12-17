@@ -101,9 +101,7 @@
 .main{
 	height: auto;
 	color: $col2;
-	padding: 10px;
 	font-size: 30px;
-	align-content: flex-start;
 }
 .foto{
 	background: $col1;
@@ -129,14 +127,14 @@ h3{
 	text-align: center;
 }
 .foto, .my, .main, .skills{
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .skills{
 	background: #dedede;
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	border-radius: 50%;
 	box-shadow: 0 7px 10px #999;
 	border: 10px solid #dedede;
@@ -145,6 +143,9 @@ h3{
     align-items: center;
     opacity: 0.7;
     transition: all 0.2s ease-in-out;
+}
+.skills:hover{
+	background: $col3;
 }
 .logo-main{
 	display: flex;
@@ -157,7 +158,17 @@ h3{
 	bottom: 0;
 	right: 0;
 }
-
+.sec{
+	display: -webkit-flex;
+ 	display: flex;
+  	-webkit-flex-flow: row wrap;
+  	justify-content: center;
+}
+.pro{
+	width: 100px;
+	height: 100px;
+	border: 10px solid #dedede;
+}
 @media (max-width: 640px){
 		[class*='col-']{
 			clear: both;
@@ -172,6 +183,19 @@ h3{
 		    width: 70%;
 		    height: 100%;
 		}
+		.skills{
+			width: 50px;
+			height: 50px;
+		}
+		img{
+			width: 40px;
+			height: 40px;
+		}
+		.foto, .my, .main, .skills{
+			margin-top: 10px;
+			margin-bottom: 10px;
+			font-size: 10px;
+}
 	}
 
 
