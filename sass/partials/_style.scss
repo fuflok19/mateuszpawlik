@@ -132,7 +132,7 @@ h3{
     align-items: center;
     -webkit-transition: all 0.7s ease;
 	transition: all 0.7s ease;
-	margin: 5%;
+	margin: 2%;
 }
 .skills:hover, .foto:hover{
 	-webkit-transform:scale(1.2);
@@ -175,6 +175,12 @@ img{
 }
 input{
 	width: 80%;
+}
+form{
+	max-width: 500px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    padding: 20px;
 }
 
 @media (max-width: 640px){
