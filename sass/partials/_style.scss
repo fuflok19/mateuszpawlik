@@ -2,13 +2,10 @@
 	margin: 0 auto;
 	font-family: 'Oswald', sans-serif;
 }
-
-.grid-container
-{	
+.grid-container{	
 	height: auto;
 	width: 60%;
 }
-
 .row:before, .row:after{
 	content: "";
 	clear: both;
@@ -22,52 +19,40 @@
 	background: white;
 	box-sizing: border-box;
 }
-.col-1-12
-	{
+.col-1-12{
 		width: 8.33%;
 	}
-.col-2-12
-	{
+.col-2-12{
 		width: 16.66%;
 	}
-.col-3-12
-	{
+.col-3-12{
 		width: 24.99%;
 	}
-.col-4-12
-	{
+.col-4-12{
 		width: 33.33%;
 	}
-.col-5-12
-	{
+.col-5-12{
 		width: 41.65%;
 	}
-.col-6-12
-	{
+.col-6-12{
 		width: 49.98%;
 	}
-.col-7-12
-	{
+.col-7-12{
 		width: 58.31%;
 	}
-.col-8-12
-	{
+.col-8-12{
 		width: 66.64%;
 	}
-.col-9-12
-	{
+.col-9-12{
 		width: 74.97%;
 	}
-.col-10-12
-	{
+.col-10-12{
 		width: 83.33%;
 	}
-.col-11-12
-	{
+.col-11-12{
 		width: 91.63%;
 	}
-.col-12-12
-	{
+.col-12-12{
 		width: 100%;
 	}
 
@@ -147,7 +132,7 @@ h3{
     align-items: center;
     -webkit-transition: all 0.7s ease;
 	transition: all 0.7s ease;
-	padding: 5%;
+	margin: 5%;
 }
 .skills:hover, .foto:hover{
 	-webkit-transform:scale(1.2);
