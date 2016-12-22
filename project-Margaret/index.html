@@ -15,13 +15,12 @@
 		<button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#navTog"></button>
 		<div class="collapse navbar-toggleable-sm" id="navTog"><span class="navbar-brand">Małgorzata Pawlik</span>
 			<ul class="nav navbar-nav float-md-right">
-				<li class="nav-item"><a href="#" class="nav-link">Link 1</a></li>
-				<li class="nav-item"><a href="#" class="nav-link">Link 2</a></li>
-				<li class="nav-item"><a href="#" class="nav-link">Link 3</a></li>
+				<li class="nav-item"><a href="index.html" class="nav-link">Index</a></li>
+				<li class="nav-item"><a href="show.html" class="nav-link">Showcase</a></li>
+				<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 			</ul>
 		</div>
 	</nav>
-
 	<div class="container main">
 		<div class="row">
 			<div class="col-sm-2 main">About
@@ -36,6 +35,19 @@
 			</div>
 		</div>
 	</div>
+	<div class="container">
+        <div class="myform">
+            <form>
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="your name"> </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="your email"> </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </div>
 	<!--across all page-->
 	<div class="container">
 		<section><div id="map"></div></section>
@@ -45,19 +57,19 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3"></script>
-        <script>
-            function init(){
-                var lal = {lat:50.3025,lng:18.778056};
-                var map = new google.maps.Map(document.getElementById('map'),{
-                    zoom:5,
-                    center:lal
-                });
-                var marker = new google.maps.Marker({
-                    position: lal,
-                    map:map
-                })
-            }
-            google.maps.event.addDomListener(window,'load',init);
-    	</script>
+       <script>
+           function init(){
+               var lal = {lat:50.3025,lng:18.778056};
+               var map = new google.maps.Map(document.getElementById('map'),{
+                   zoom:5,
+                   center:lal
+               });
+               var marker = new google.maps.Marker({
+                   position: lal,
+                   map:map
+               })
+           }
+           google.maps.event.addDomListener(window,'load',init);
+    </script>
 </body>
 </html>
