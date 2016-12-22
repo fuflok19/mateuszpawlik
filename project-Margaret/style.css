@@ -9,3 +9,11 @@
 	border: 1px solid black;
 	background-color:#ddd;
 }
+footer{
+    height:100px;
+    background-color:#ddd;
+}
+#map{
+    height:400px;
+    background-color:grey;
+}
