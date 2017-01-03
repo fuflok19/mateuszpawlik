@@ -57,7 +57,7 @@
 
 .header{
 	background: $col1;
-	background-image: url('../images/2c.jpg');
+	background-image: url('../images/2b.jpg');
 	background-size: 100% 100%;
 	height: 96vh;
 }
@@ -149,11 +149,16 @@ img{
     justify-content: center;
     width: 60%;
     height: 60%;
+    margin-top: 10%;
 }
-.cd-top{
-	position: fixed;
-	bottom: 0;
-	right: 0;
+.back-to-top {
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	padding:20px; 
+	color:black;
+	text-decoration: none;
+	background: rgba(0,0,0,0.5);
 }
 .sec{
 	display: -webkit-flex;
@@ -194,7 +199,7 @@ form{
 			display: flex;
 		    justify-content: center;
 		    width: 70%;
-		    height: 100%;
+		    height: 30%;
 		}
 		.skills{
 			width: 50px;
