@@ -1,24 +1,29 @@
 *{
 		/* Background pattern from subtlepatterns.com */
-		/*background-image: url("img/tlo.png");*/
 		margin: 0px;
 		font-family: 'Merriweather', serif;
 		font-size: 20px;
 }
-.main{
-	border: 1px solid black;
-	background-color:#ddd;
+.navbar, .ach, footer{
+	background-color: #999966
+}
+
+.ach:hover{
+	background-color: rgba(102, 153, 153, 0.8);
 }
 footer{
     height:100px;
-    background-color:#ddd;
 }
 #map{
     height:400px;
     background-color:grey;
+    margin: 20px 0 20px 0;
 }
 .myform{
     padding: 10px;
     border: 1px solid #eee;
-    margin: 10px;
+    
+}
+h1, .myform{
+	margin: 50px 0 50px 0;
 }

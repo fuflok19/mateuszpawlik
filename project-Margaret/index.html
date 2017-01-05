@@ -9,34 +9,58 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css" type="text/css" />
 </head>
-
 <body>
-	<nav class="navbar navbar-dark" style="background-color:blue">
-		<button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#navTog"></button>
-		<div class="collapse navbar-toggleable-sm" id="navTog"><span class="navbar-brand"><img src="img/logom6.png" class="img-fluid"/></span>
-			<ul class="nav navbar-nav float-md-right">
-				<li class="nav-item"><a href="index.html" class="nav-link">Index</a></li>
-				<li class="nav-item"><a href="show.html" class="nav-link">Showcase</a></li>
-				<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-			</ul>
+	<nav class="navbar navbar-dark" style="">
+		<div class="container">
+			<button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#navTog"></button>
+			<div class="collapse navbar-toggleable-sm" id="navTog" <span class="navbar-brand"><img src="img/logom3.png" class="img-fluid" width="100" height="100"></span>
+				<ul class="nav navbar-nav float-md-right">
+					<li class="nav-item"><a href="#showcase" class="nav-link">showcase</a></li>
+					<li class="nav-item"><a href="#scientist" class="nav-link">scientist</a></li>
+					<li class="nav-item"><a href="#achievements" class="nav-link">achievements</a></li>
+					<li class="nav-item"><a href="#contact" class="nav-link">contact</a></li>
+				</ul>
+			</div>
 		</div>
 	</nav>
+		<div class="container">
+	        <div id="showcase" class="carousel slide" data-ride="carousel">
+	                    <ol class="carousel-indicators">
+	                        <li data-target="#carimages" data-slide-to="0" class="active"></li>
+	                        <li data-target="#carimages" data-slide-to="1"></li>
+	                        <li data-target="#carimages" data-slide-to="2"></li>
+	                        <li data-target="#carimages" data-slide-to="3"></li>
+	                    </ol>
+	                    <div class="carousel-inner">
+	                        <div class="carousel-item active"><img src="http://placehold.it/1200x800"></div>
+	                        <div class="carousel-item"><img src="http://placehold.it/1200x800"></div>
+	                        <div class="carousel-item"><img src="http://placehold.it/1200x800"></div>
+	                        <div class="carousel-item"><img src="http://placehold.it/1200x800"></div>
+	                    </div> <a class="left carousel-control" href="#carimages" data-slide="prev"><span class="icon-prev"></span></a> <a class="right carousel-control" href="#carimages" data-slide="next"><span class="icon-next"></span></a>
+        </div>
+    </div>
 	<div class="container main">
-		<div class="row">
-			<div class="col-sm-2 main">About
-				<img src="img/logom6.png" class="img-fluid"/>
+			<div id="scientist"><img src="img/logom6.png" class="img-fluid" style="width:100%"/><h1>Scientist</h1>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
 			</div>
-			<div class="col-sm-8 main">Research
-				<img src="img/logom2.png" class="img-fluid"/><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. <img src="img/logom10.png" class="img-fluid float-xs-left img-thumbnail"/>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>
-				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+			<div id="achievements"><h1>Achievements</h1>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+				<div class="row">
+					<div class="col-sm-4 ach"><h1 class="text-xs-center">2010</h1>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+					</div>
+					<div class="col-sm-4 ach"><h1 class="text-xs-center">2012</h1>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+					</div>
+					<div class="col-sm-4 ach"><h1 class="text-xs-center">2014</h1>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+					</div>
 			</div>
-			<div class="col-sm-2 main">Achievements
-				<img src="img/logom6.png" class="img-fluid"/>
-			</div>
-		</div>
+	</div>
 	</div>
 	<div class="container">
-        <div class="myform">
+	<h1>Contact</h1>
+        <div id="contact" class="myform">
             <form>
                 <div class="form-group">
                     <label for="name">Your Name</label>
@@ -51,25 +75,12 @@
 	<!--across all page-->
 	<div class="container">
 		<section><div id="map"></div></section>
-		<footer class="bg-primary text-xs-center"><div>(c) Copyright Mateusz Pawlik</div></footer>
+		<footer class="text-xs-center"><div>(c) Copyright Mateusz Pawlik</div></footer>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3"></script>
-       <script>
-           function init(){
-               var lal = {lat:50.3025,lng:18.778056};
-               var map = new google.maps.Map(document.getElementById('map'),{
-                   zoom:5,
-                   center:lal
-               });
-               var marker = new google.maps.Marker({
-                   position: lal,
-                   map:map
-               })
-           }
-           google.maps.event.addDomListener(window,'load',init);
-    </script>
+    <script src="js/app.js"></script>
 </body>
 </html>
