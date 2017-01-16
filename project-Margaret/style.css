@@ -5,7 +5,7 @@
 		font-size: 20px;
 }
 .navbar, .ach, footer{
-	background-color: #999966
+	background-color: 
 }
 
 .ach:hover{
@@ -24,6 +24,9 @@ footer{
     border: 1px solid #eee;
     
 }
-h1, .myform{
+h1, .myform, .one{
 	margin: 50px 0 50px 0;
+}
+.carousel-inner{
+
 }
