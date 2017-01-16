@@ -54,30 +54,41 @@
 .col-12-12{
 		width: 100%;
 	}
-
 .header{
 	background: $col1;
 	background-image: url('../images/2b.jpg');
 	background-size: 100% 100%;
 	height: 96vh;
 }
-.menu{
-	background: $col1;
-	height: auto;
+nav{
+	background-color: $col1;
 }
-.a{
-	background: $col1;
-	height:	5%;
+ul.topnav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: #333;
+}
+ul.topnav li{
+	float:left;
+}
+ul.topnav li a{
+	display: inline-block;
+	color: #f2f2f2;
 	text-align: center;
-	padding: 10px;
-}
-.nav-a{
+	padding: 14px 16px;
 	text-decoration: none;
-	color: $col2;	
+	transition: 0.3s;
+	font-size: 17px;
 }
-.a:hover{
-    background: $col3;
+ul.topnav li a:hover{
+	background-color: $col1;
 }
+ul.topnav li.icon{
+	display: none;
+}
+
 .footer{
 	background: $col1;
 	height: 160px;
@@ -200,6 +211,29 @@ form{
 			clear: both;
 			width: 100%;
 		}
+		ul.topnav li:not(:first-child){
+			display: none;
+		}
+  		ul.topnav li.icon {
+  			float: right;
+    		display: inline-block;
+    	}
+    	ul.topnav.responsive {
+    		position: relative;
+    	}
+  		ul.topnav.responsive li.icon {
+    		position: absolute;
+    		right: 0;
+    		top: 0;
+  		}
+  		ul.topnav.responsive li {
+    		float: none;
+    		display: inline;
+  		}
+  		ul.topnav.responsive li a {
+    		display: block;
+    		text-align: left;
+  		}
 		.grid-container{
 			width: 90%;
 		}
