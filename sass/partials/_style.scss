@@ -177,6 +177,9 @@ img{
   	-webkit-flex-flow: row wrap;
   	justify-content: center;
 }
+.main-a{
+	height: 40%;
+}
 .pro{
 	width: 200px;
 	height: 150px;
@@ -203,7 +206,6 @@ form{
 	width: 30%;
 	height: 200px;
 	background: $col5;
-
 }
 
 @media (max-width: 640px){

@@ -14,6 +14,8 @@
         $('html, body').animate({scrollTop: position.top}, time);
     });
 
+        
+
         $('a').click(function(){
 
         $('html, body').animate({
@@ -32,10 +34,3 @@ function myFunction() {
         x.className = "topnav";
     }
 }
-
-
-
-
-
-
-
