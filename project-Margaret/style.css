@@ -6,11 +6,6 @@
 }
 .navbar, footer{
 	background-color: rgba(102, 153, 153, 0.8);
-	color: grey;
-}
-
-.ach:hover{
-	background-color: rgba(102, 153, 153, 0.8);
 }
 footer{
     height:100px;
@@ -40,4 +35,51 @@ h1, .myform, .one{
 .three{
     background: url('img/h3.png');
     background-size: cover;
+}
+.ach{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.ach:hover, .ach:focus, .ach:active {
+  background: #2098D1;
+  color: white;
+}
+.nav-link{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.nav-link:before{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098D1;
+  height: 4px;
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.nav-link:hover:before, .nav-link:focus:before, .nav-link:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
 }
