@@ -64,52 +64,49 @@
 .three{
 	height: 400px;
 }
+/*navigation*/
 nav{
-	background: black;
+	background-color: black;
 }
-ul.topnav{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+li{
+	float: left;
 }
-ul.topnav li{
-	float: right;
-}
-ul.topnav li a{
-	display: inline-block;
-	color: white;
+li a{
 	text-align: center;
 	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
 }
-li.dropdown {
-    display: inline-block;
+/*header*/
+header{
+	height: 300px;
 }
-.dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+.picture{
+	background: green;
+	background-image: url("images/black_chair.png");
+	background-size: cover;
 }
-.dropdown-content a{
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+.text{
+	height: 200px;
 }
-
-.dropdown-content a:hover{
-	background-color: #f1f1f1;
+/*one*/
+.ab{
+	background-color: red;
+	border: 1px solid black;
 }
-.dropdown:hover .dropdown-content{
-    display: block;
+.frame1{
+	background: url("images/box1_img.jpg");
+	background-size: cover;
+	border: none;
 }
-
+.frame2{
+	background-image: url("images/box2_img.jpg");
+	border: none;
+}
+/*two*/
+.c{
+	background: violet;
+}
+/*three*/
+/*footer*/
 @media (max-width: 640px){
 		[class*='col-']{
 			clear: both;

@@ -181,9 +181,9 @@ img{
 	height: 40%;
 }
 .pro{
-	width: 200px;
-	height: 150px;
-	border: 10px solid #dedede;
+	border: 10px solid $col3;
+	height: 300px;
+	background: rgba(0,0,0,0.5);
 }
 .show{
 	display: flex;
@@ -216,7 +216,10 @@ form{
 .hvr-hollow:hover, .hvr-hollow:focus, .hvr-hollow:active{
   background: none;
 }
-
+.col-6-12{
+	list-style-type: none;
+	font-size: 24px;
+}
 @media (max-width: 640px){
 		[class*='col-']{
 			clear: both;
