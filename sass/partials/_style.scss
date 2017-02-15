@@ -224,6 +224,7 @@ form{
 .col-6-12{
 	list-style-type: none;
 	font-size: 24px;
+	overflow: hidden;
 }
 @media (max-width: 640px){
 		[class*='col-']{
