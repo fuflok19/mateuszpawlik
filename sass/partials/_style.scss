@@ -55,11 +55,12 @@
 		width: 100%;
 	}
 .header{
-	background: $col1;
+	background-color: $col1;
 	background-image: url('../images/2b.jpg');
 	background-size: 100% 100%;
 	height: 96vh;
 }
+/*navigation*/
 nav{
 	background-color: $col1;
 }
@@ -68,7 +69,7 @@ ul.topnav{
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background: #333;
+	background-color: #333;
 }
 ul.topnav li{
 	float:left;
@@ -88,11 +89,12 @@ ul.topnav li a:hover{
 ul.topnav li.icon{
 	display: none;
 }
-
+/*footer*/
 .footer{
 	background: $col1;
 	height: 160px;
 }
+/*main*/
 .main{
 	height: auto;
 	color: $col2;
@@ -219,7 +221,7 @@ form{
   /* Hack to improve aliasing on mobile/tablet devices */
 }
 .hvr-hollow:hover, .hvr-hollow:focus, .hvr-hollow:active{
-  background: none;
+  background: url('../images/int2.png');
 }
 .col-6-12{
 	list-style-type: none;
