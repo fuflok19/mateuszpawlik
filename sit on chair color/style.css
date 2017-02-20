@@ -29,7 +29,7 @@
 		width: 24.99%;
 	}
 .col-4-12{
-		width: 33.33%;
+		width: 30%;
 	}
 .col-5-12{
 		width: 41.65%;
@@ -68,6 +68,9 @@
 nav{
 	background-color: black;
 }
+span.logo{
+	font-size: 20px;
+}
 li{
 	float: left;
 }
@@ -77,38 +80,147 @@ li a{
 }
 /*header*/
 header{
-	height: 300px;
+	height: 700px;
+	background-color: yellow;
 }
 .picture{
 	background: green;
 	background-image: url("images/black_chair.png");
-	background-size: cover;
+	background-size: 100% 100%;
 }
 .text{
-	height: 200px;
+	background-color: red;
+}
+.text, .picture{
+	height: 100%;
+}
+#let-1{
+	color: green;
+}
+#let-2{
+	color: black;
+}
+#let-3{
+	color: white;
+}
+span.text{
+	position: relative;
+	top: 40px;
+	font-size: 40px;
+}
+p.text-1{
+	font-size: 15px;
+	padding: 50px;
+}
+button.btns-1{
+	background-color: green;
+	color: white;
+	border-radius: 4%;
+	height: 50px;
+	width: 250px;
+	border: none;
 }
 /*one*/
+.one{
+	padding-top: 30px;
+}
 .ab{
 	background-color: red;
 	border: 1px solid black;
+	height: 400px;
+	margin: 1.65%;
 }
-.frame1{
-	background: url("images/box1_img.jpg");
-	background-size: cover;
+.frame-1{
+	background-image: url("images/box1_img.jpg");
 	border: none;
 }
-.frame2{
+.frame-2{
 	background-image: url("images/box2_img.jpg");
 	border: none;
 }
+.frame-1, .frame-2{
+	background-size: 100% 100%;
+	height: 350px;
+}
+#in-frame{
+	padding: 10px;
+}
 /*two*/
+#l-3{
+	font-weight: lighter;
+	color: green;
+	position: relative;
+	top: 30px;
+	left: 110px;
+}
 .c{
 	background: violet;
+	height: 600px;
+	border: 2px solid grey;
+	overflow: hidden;
+	margin: 1.65%;
+}
+.circle{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border: 1px solid grey;
+	position: absolute;
+	top: -2px;
+	z-index: 1;
+	background-color: silver;
+}
+.circle-1{
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	border: 1px solid grey;
+	position: relative;
+	top: 50px;
+	background-color: silver;
+	font-size: 30px;
+	font-weight: bold;
+}
+.inside{
+	position: relative;
+	top: 20px;
+	left: 30px;
+}
+.inside-1{
+	font-size: 15px;
+	position: relative;
+	top: -10px;
+	left: 20px; 
+}
+button.btns-2{
+	background-color: green;
+	color: white;
+	border-radius: 4%;
+	height: 50px;
+	width: 150px;
+	border: none;
+	font-size: 20px;
+	position: relative;
+	bottom: -380px;
+	left: 150px;
 }
 /*three*/
 /*footer*/
-@media (max-width: 640px){
+@media(max-width: 1400px){
+		#l-3{
+			left: 10px;
+		}
+}
+@media (max-width: 1000px){
 		[class*='col-']{
 			clear: both;
 			width: 100%;
 		}
+		#l-3{
+			left: 90px;
+		}
+		.ab, .c{
+			margin: 0;
+		}
+
+}
