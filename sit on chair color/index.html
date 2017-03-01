@@ -59,7 +59,9 @@
 	</section>						
 	<section class="row two">
 		<div class="container">
-			<h2>CENNIK</h2>
+			<div class="head">CENNIK
+				<div class="line"></div>
+			</div>
 				<div class="col-4-12 c">
 					<div class="circle"></div>
 						<h2 id="l-3">BASIC PLAN</h2>
@@ -92,15 +94,18 @@
 	</section>
 	<section class="three row">
 		<div class="container">
-			<h2>KONTAKT</h2>
+			<div class="line">KONTAKT</div>
 				<div class="col-7-12">
-					<input name="Imię" type="text"></input>
-					<input name="email" type="email"></input>
+					<input name="imie" type="text" value="Imię"></input>
+					<input name="email" type="email" value="email"></input>
 					<textarea>Wiadomość</textarea>
 				</div>
 				<div class="col-5-12">
 					<img src="images/red_chair.png">
-					<button>WYŚLIJ</button>
+					<p>
+						<input type='checkbox' name='thing' value='valuable' id="thing"/><label for="thing"></label> Zgadzam się na przetwarzanie danych osobowych
+					</p>
+					<button class="btns-3">WYŚLIJ</button>
 				</div>
 		</div>
 	</section>
@@ -114,7 +119,7 @@
 				<img src="images/vimeo.png">
 				<img src="images/pinterest.png">
 				<img src="images/twitter.png">
-				<span>SIT<strong>ON</strong>CHAIR</span> 
+				<span id="font">SIT<span id="font-1">ON</span>CHAIR</span> 
 			</div>
 		</div>
 	</footer>

@@ -1,8 +1,12 @@
 *{
 	padding:0;
 	margin:0 auto;
-	font-family: 'Roboto', sans-serif;
+	font-family: "Raleway"; 
 }
+@font-face{
+
+}
+
 .container{
 	height: auto;
 	width: 70%;
@@ -294,7 +298,53 @@ button.btns-1, button.btns-2{
 	margin-bottom: 120px;
 }
 /*three*/
+.head{
+	font-weight: bold;
+	font-size: 25px;
+}
+.line{
+	background-color: green;
+	width: 30%;
+	height: 8px;
+	float: left;
+}
+.btns-3{
+	background: green;
+	width: 150px;
+	height: 50px;
+	border-radius: 5%;
+	color: white;
+}
+/*checkbox*/
+input[type=checkbox]{
+	display: none;
+}
+input[type=checkbox] + label{
+	border: 2px solid green;
+	background: white;
+	height: 60px;
+	width: 60px;
+	display: inline-block;
+	padding: 0 0 0 0px;
+}
+input[type=checkbox]:checked + label{
+	background-image: url("images/form_ok.jpg");
+	background-size: 100% 100%;
+	height: 60px;
+	width: 60px;
+	display: inline-block;
+	padding: 0 0 0 0px;
+}
 /*footer*/
+footer{
+	color: grey;
+}
+#font{
+	padding: 50px;
+}
+#font-1{
+	font-weight: bold;
+}
 @media (max-width: 800px){
 		[class*='col-']{
 			clear: both;
