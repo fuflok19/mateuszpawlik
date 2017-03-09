@@ -1,16 +1,4 @@
-		@mixin menu-one(){
-			overflow: hidden;
-			color: white;
-			padding: 0;
-			text-align: center;
-			margin: 0;
+@mixin animation-delay($time) {
+		animation-delay: $time;
 		}
-		@mixin menu-two(){
-			display: inline-block;
-			padding: 20px;
-		}
-		@mixin menu-three(){
-			display: none;
-		}
-
 	
