@@ -55,34 +55,7 @@
 		width: 100%;
 	}
 /*navigation*/
-nav{
-	background-color: $col1;
-}
-ul.topnav{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
-}
-ul.topnav li{
-	float:left;
-}
-ul.topnav li a{
-	display: inline-block;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	transition: 0.3s;
-	font-size: 17px;
-}
-ul.topnav li a:hover{
-	background-color: $col1;
-}
-ul.topnav li.icon{
-	display: none;
-}
+
 /*header*/
 .header{
 	background-color: $col1;
@@ -195,9 +168,10 @@ img{
 	bottom:20px;
 	right:20px;
 	padding:20px; 
-	color:black;
+	color: black;
 	text-decoration: none;
 	background: rgba(0,0,0,0.5);
+	box-shadow: 0 5px 6px -6px rgba(0, 0, 0, .4);
 }
 .sec{
 	display: -webkit-flex;
@@ -345,29 +319,6 @@ h1.name{
 			clear: both;
 			width: 100%;
 		}
-		ul.topnav li:not(:first-child){
-			display: none;
-		}
-  		ul.topnav li.icon {
-  			float: right;
-    		display: inline-block;
-    	}
-    	ul.topnav.responsive {
-    		position: relative;
-    	}
-  		ul.topnav.responsive li.icon {
-    		position: absolute;
-    		right: 0;
-    		top: 0;
-  		}
-  		ul.topnav.responsive li {
-    		float: none;
-    		display: inline;
-  		}
-  		ul.topnav.responsive li a {
-    		display: block;
-    		text-align: left;
-  		}
 		.grid-container{
 			width: 90%;
 		}
@@ -391,7 +342,7 @@ h1.name{
 			font-size: 10px;
 		}
 		h1.name{
-			font-size: 3em;
+			font-size: 2em;
 		}
 	}
 
