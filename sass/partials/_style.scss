@@ -56,9 +56,9 @@
 	}
 /*navigation*/
 nav ul{
-    background: red;
+    background: $col2;
     overflow: hidden;
-    color: white;
+    color: $col1;
     padding: 0;
     text-align: center; 
     -webkit-transition: max-height 0.4s;
@@ -72,7 +72,8 @@ nav ul li{
     padding: 20px;
 }
 nav ul li:hover{
-    background-color: chocolate;
+    background-color: $col3;
+    color: $col1;
 }
 a.nav-a{
     text-decoration: none;
@@ -80,16 +81,16 @@ a.nav-a{
 }
 .handle{
     width: 100%;
-    background-color: blueviolet;
+    background-color: $col3;
     text-align: left;
     box-sizing: border-box;
     padding: 15px 10px;
     cursor: pointer;
-    color: white;
+    color: $col1;
     display: none;
 }
 /*header*/
-.header{
+.head{
 	background-color: $col1;
 	background-image: url('../images/2b.jpg');
 	background-size: 100% 100%;
